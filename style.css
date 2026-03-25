@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+    body{
+        display:flex ;
+         justify-content: center;
+        align-items: center;
+        background-color: rgb(234, 206, 227);
+        height:100vh;/* take full screen in consideration remember no gap between 100 and vh */
+    }
+
+    .info{
+       
+
+
+        background-color: rgb(251, 247, 251);
+         border:2px solid black;/*width */
+        border-radius:20px;
+        display:flex;
+         flex-direction:column; 
+        justify-content:center;
+        align-items: center; 
+        padding: 10px 20px 20px 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+ 
+
+
+    }
+
+    .photo{
+        margin-top: 22px;
+        height: 100px;
+        width:100px;
+        border-radius: 50%; /* image from square to rectangle*/
+        /* border: 2px solid rgb(20, 17, 20); */
+    }
+
+
+  .profession{
+    color:red;
+
+        font-size:15px;
+
+/* margin-bottom: 10px; */
+    }
+
+
+    .email{
+
+        font-size:15px;
+margin-top: 10px;
+margin-bottom: 30px;
+    }
+     
+     .name{
+
+        font-size:20px;
+margin-top: 10px;
+margin-bottom: 10px;
+    }
+     
+    .btn{
+        font-size: 15px ;
+        border:none;
+        border-radius: 30px;
+        color:rgb(176, 37, 142);
+        /* border-width: 3px; */
+        /* border-color: rgb(151, 96, 205); */
+        margin:  0 7px;
+        padding:7px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        transition:0.5s;
+     }
+
+
+     .btn:hover{
+    background-color: rgb(234, 206, 227);
+}
+
